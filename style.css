@@ -1,22 +1,56 @@
+/* Design Defaults for Entire Page */
+
 * {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     text-decoration: none;
     color: white;
+}
+
+body {
     background-color: #202124;
+}
+
+@media (min-width: 722px) {
+    main {
+        max-width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 721px) {
+    main {
+        max-width: 720px;
+        margin-top: 20px;
+    }
 }
 
 main {
     max-width: 80%;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 20px;
+}
+
+/* Headers Design */
+
+header {
+    margin: 30px
 }
 
 header h1 {
-    padding: 12px;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 21px;
 }
+
+h2 {
+    font-weight: 600;
+    
+    margin-bottom: 5px;
+    margin-left: 7px;
+}
+
+/* Pill Shaped Links*/
 
 .Pill_Shaped_Links {
     display: flex;
@@ -28,12 +62,15 @@ header h1 {
     padding: 12px 12px;
     margin: 6px;
     width: fit-content;
-    border-radius: 12px;
+    border-radius: 18px;
 }
 
 .Pill_Shaped_Links > a > div:hover{
     background-color: #303134;
 }
+
+
+/* Links_With_Banner*/
 
 .Links_With_Banners {
     display: flex;
@@ -45,9 +82,24 @@ header h1 {
     padding: 12px 12px;
     margin: 6px;
     width: 240px;
-    border-radius: 12px;
+    border-radius: 18px;
 }
 
-.Links_With_Banners a  div:hover{
+.Links_With_Banners > a > div:hover {
     background-color: #303134;
+}
+
+.Links_With_Banners > a > div > img {
+    width: 240px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.Links_With_Banners > a > div > span {
+    font-size: 12px;
+}
+
+.Links_With_Banners > a > div > span > strong{
+    font-weight: 600;
 }
