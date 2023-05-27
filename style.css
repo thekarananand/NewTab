@@ -11,26 +11,23 @@ body {
     background-color: #202124;
 }
 
-@media (min-width: 722px) {
-    main {
-        max-width: 80%;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 721px) {
-    main {
-        max-width: 720px;
-        margin-top: 20px;
-    }
-}
-
 main {
-    max-width: 80%;
     margin: 0 auto;
     margin-top: 20px;
 }
+
+@media (min-width: 1000px) {
+    main {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 999px) {
+    main {
+        max-width: 787px;
+    }
+}
+
 
 /* Headers Design */
 
