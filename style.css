@@ -1,16 +1,15 @@
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     text-decoration: none;
     color: white;
-    background-color: #242424;
+    background-color: #202124;
 }
 
 main {
     max-width: 80%;
     margin: 0 auto;
     margin-top: 60px;
-
 }
 
 header h1 {
@@ -27,13 +26,13 @@ header h1 {
 .Pill_Shaped_Links > a > div{
     border: 1px solid white;
     padding: 12px 12px;
-    margin: 3px;
+    margin: 6px;
     width: fit-content;
     border-radius: 12px;
 }
 
 .Pill_Shaped_Links > a > div:hover{
-    background-color: #595959;
+    background-color: #303134;
 }
 
 .Links_With_Banners {
@@ -43,12 +42,12 @@ header h1 {
 
 .Links_With_Banners > a > div {
     border: 1px solid white;
-    padding: 6px 6px;
-    margin: 3px;
-    max-width: 320px;
+    padding: 12px 12px;
+    margin: 6px;
+    width: 240px;
     border-radius: 12px;
 }
 
 .Links_With_Banners a  div:hover{
-    background-color: #595959;
+    background-color: #303134;
 }
