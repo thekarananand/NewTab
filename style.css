@@ -31,18 +31,29 @@ main {
 
 /* Headers Design */
 
-header {
-    margin: 30px
+@media (min-width: 853px) {
+    header {
+        margin: 30px;
+    }
 }
+
+@media (max-width: 852px) {
+    header {
+        margin: 30px auto;
+        max-width: 780px;
+    }
+}
+
 
 header h1 {
     font-weight: 600;
     font-size: 21px;
+    margin-left: 6px;
 }
 
 h2 {
     font-weight: 600;
-    
+
     margin-bottom: 5px;
     margin-left: 7px;
 }
@@ -54,7 +65,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-.Pill_Shaped_Links > a > div{
+.Pill_Shaped_Links>a>div {
     border: 1px solid white;
     padding: 12px 12px;
     margin: 6px;
@@ -62,7 +73,7 @@ h2 {
     border-radius: 18px;
 }
 
-.Pill_Shaped_Links > a > div:hover{
+.Pill_Shaped_Links>a>div:hover {
     background-color: #303134;
 }
 
@@ -74,7 +85,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-.Links_With_Banners > a > div {
+.Links_With_Banners>a>div {
     border: 1px solid white;
     padding: 12px 12px;
     margin: 6px;
@@ -82,21 +93,21 @@ h2 {
     border-radius: 18px;
 }
 
-.Links_With_Banners > a > div:hover {
+.Links_With_Banners>a>div:hover {
     background-color: #303134;
 }
 
-.Links_With_Banners > a > div > img {
+.Links_With_Banners>a>div>img {
     width: 240px;
     height: 135px;
     object-fit: cover;
     border-radius: 6px;
 }
 
-.Links_With_Banners > a > div > span {
+.Links_With_Banners>a>div>span {
     font-size: 12px;
 }
 
-.Links_With_Banners > a > div > span > strong{
+.Links_With_Banners>a>div>span>strong {
     font-weight: 600;
 }
