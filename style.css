@@ -47,7 +47,7 @@ main {
 
 header h1 {
     font-weight: 600;
-    font-size: 26px;
+    font-size: 24px;
     margin-left: 6px;
 }
 
@@ -65,15 +65,30 @@ h2 {
     flex-wrap: wrap;
 }
 
-.Pill_Shaped_Links>a>div {
+.Pill_Shaped_Links>a>img {
+    height: 25px;
+
+    margin-right: 5px;
+    
+}
+
+
+.Pill_Shaped_Links>a {
     border: 1px solid white;
-    padding: 12px 12px;
+    padding: 10px 10px;
     margin: 6px;
     width: fit-content;
     border-radius: 18px;
+    display: flex;
 }
 
-.Pill_Shaped_Links>a>div:hover {
+.Pill_Shaped_Links>a>div {
+    margin: auto 4px;
+    
+}
+
+
+.Pill_Shaped_Links>a:hover {
     background-color: #303134;
 }
 
@@ -87,7 +102,7 @@ h2 {
 
 .Links_With_Banners>a>div {
     border: 1px solid white;
-    padding: 12px 12px;
+    padding: 10px 10px;
     margin: 6px;
     width: 240px;
     border-radius: 18px;
@@ -101,7 +116,7 @@ h2 {
     width: 240px;
     height: 135px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 9px;
 }
 
 .Links_With_Banners>a>div>span {
