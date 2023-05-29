@@ -74,7 +74,7 @@ h2 {
 
 
 .Pill_Shaped_Links>a {
-    border: 1px solid white;
+    border: 1px solid #303134;
     padding: 10px 10px;
     margin: 6px;
     width: fit-content;
@@ -101,7 +101,7 @@ h2 {
 }
 
 .Links_With_Banners>a>div {
-    border: 1px solid white;
+    border: 1px solid #303134;
     padding: 10px 10px;
     margin: 6px;
     width: 240px;
