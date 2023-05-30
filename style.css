@@ -100,19 +100,19 @@ h2 {
     flex-wrap: wrap;
 }
 
-.Links_With_Banners>a>div {
+.Links_With_Banners>a {
     border: 1px solid #303134;
     padding: 10px 10px;
     margin: 6px;
-    width: 240px;
+
     border-radius: 18px;
 }
 
-.Links_With_Banners>a>div:hover {
+.Links_With_Banners>a:hover {
     background-color: #303134;
 }
 
-.Links_With_Banners>a>div>img {
+.Links_With_Banners>a>img {
     width: 240px;
     height: 135px;
     object-fit: cover;
@@ -125,4 +125,30 @@ h2 {
 
 .Links_With_Banners>a>div>span>strong {
     font-weight: 600;
+}
+
+@media (max-width: 563px) {
+
+    .Links_With_Banners{
+        display: grid;
+    }
+
+    .Links_With_Banners>a{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Links_With_Banners>a>img{
+        width: 180px;
+        height: 101px;
+    }
+    .Links_With_Banners>a>div{
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 564px) {
+    .Links_With_Banners>a{
+        width: 240px;
+    }
 }
